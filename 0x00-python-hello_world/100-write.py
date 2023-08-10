@@ -6,5 +6,4 @@ def main():
     sys.stderr.write(str + '\n')
     sys.exit(1)
 
-if __name__ == "__main__":
-    main()
+main()
