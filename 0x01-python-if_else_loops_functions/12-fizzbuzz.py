@@ -3,11 +3,11 @@ def fizzbuzz():
     i = 1
     while (i < 101):
         if (i % 3 == 0 and i % 5 == 0):
-            return ("FizzBuzz ")
+            print("FizzBuzz ", end="")
         elif (i % 3 == 0):
-            return ("Fizz ")
+            print("Fizz ", end="")
         elif (i % 5 == 0):
-            return ("Buzz ")
+            print("Buzz ", end="")
         else:
-            return (f"{i} ")
+            print(f"{i} ", end="")
     i = i + 1
