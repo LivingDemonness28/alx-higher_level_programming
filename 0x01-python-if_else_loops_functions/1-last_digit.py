@@ -4,6 +4,7 @@ number = random.randint(-10000, 10000)
 
 if (number < 0):
     dig = abs(number) % 10
+    dig = -1*dig
 else:
     dig = number % 10
 
