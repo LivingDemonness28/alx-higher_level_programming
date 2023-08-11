@@ -4,5 +4,4 @@ if __name__ == "__main__":
     b = 2
     from add_0 import add
 
-    res = add(a, b)
-    print(f"{a} + {b} = {res}")
+    print(f"{a} + {b} = {add(a, b)}")
