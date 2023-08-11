@@ -17,7 +17,7 @@ if (new == NULL)
 return (NULL);
 new->n = number;
 
-if (node == NULL || nd->n >= number)
+if (nd == NULL || nd->n >= number)
 {
 new->next = nd;
 *head = new;
