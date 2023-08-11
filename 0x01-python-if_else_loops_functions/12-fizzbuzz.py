@@ -10,4 +10,4 @@ def fizzbuzz():
             print("Buzz ", end="")
         else:
             print(f"{i} ", end="")
-    i = i + 1
+        i = i + 1
