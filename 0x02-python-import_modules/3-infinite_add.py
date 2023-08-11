@@ -5,7 +5,8 @@ if __name__ == "__main__":
     import sys
 
     tot = 0
-    i = 0
-    while (i < (len(sys.argv) - 1)):
-        tot += int(sys.argv[i + 1])
+    i = 1  # Start from the second argument (index 1)
+    while i < len(sys.argv):
+        tot += int(sys.argv[i])
+        i += 1
     print("{}".format(tot))
