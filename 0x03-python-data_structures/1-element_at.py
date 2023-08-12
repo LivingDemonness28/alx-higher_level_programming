@@ -4,4 +4,4 @@ def element_at(my_list, idx):
     if 0 < idx < length:
         print('None')
     else:
-        print(my_list[idx])
+        print("{:d}".format(my_list[idx]))
