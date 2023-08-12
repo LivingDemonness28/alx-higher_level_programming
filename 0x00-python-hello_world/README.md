@@ -11,4 +11,13 @@
             <p>The Python file name will be saved in the environment variable $PYFILE</p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/1-run_inline" target="_blank">1-run_inline</a></h2>
+        </td>
+        <td>
+            <p>Write a Shell script that runs a Python script.</p>
+            <p>The Python file name will be saved in the environment variable $PYCODE</p>
+        </td>
+    </tr>
 </table>
