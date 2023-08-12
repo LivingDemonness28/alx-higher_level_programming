@@ -20,4 +20,15 @@
             <p>The Python file name will be saved in the environment variable $PYCODE</p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/2-print.py" target="_blank">2-print.py</a></h2>
+        </td>
+        <td>
+            <p>Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.</p>
+            <ul>
+                <li>Use the function print</li>
+            </ul>
+        </td>
+    </tr>
 </table>
