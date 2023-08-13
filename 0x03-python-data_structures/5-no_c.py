@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    split_str = my_string.split('')
+    split_str = list(my_string)
     remove1 = 'c'
     remove2 = 'C'
 
