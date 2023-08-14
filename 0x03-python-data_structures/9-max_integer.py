@@ -3,5 +3,9 @@ def max_integer(my_list=[]):
     if len(my_list) == 0:
         return ('None')
     else:
-        my_list = sorted(my_list, reverse=True)
-        print("{:d}".format(my_list[0]))
+        max_val = my_list[0]
+        
+        for num in my_list:
+            if num > max_val:
+                max_val = num
+    return (max_val)
