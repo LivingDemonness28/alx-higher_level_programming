@@ -16,7 +16,7 @@ def add_tuple(tuple_a=(), tuple_b=()):
     if len2 < 2:
         j = 0
 
-        while (i < (2-len2)):
+        while (j < (2-len2)):
             list_b.append(0)
             j = j + 1
     
