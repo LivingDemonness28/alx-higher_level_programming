@@ -12,7 +12,7 @@ listint_t *n = *head, *after, *before = NULL;
 
 for (; n; n = after)
 {
-after = n->next
+after = n->next;
 n->next = before;
 before = n;
 }
