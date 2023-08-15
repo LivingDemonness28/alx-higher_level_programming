@@ -102,4 +102,19 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/7-edges.py" target="_blank">7-edges.py</a></h2>
+        </td>
+        <td>
+            <p>Complete this <a href="https://github.com/alx-tools/0x00.py/blob/master/7-edges.py">source code</a></p>
+            <ul>
+                <li>You can find the source code <a href="https://github.com/alx-tools/0x00.py/blob/master/7-edges.py">here</a>.</li>
+                <li>Your program should be exactly 8 lines long</li>
+                <li>word_first_3 should contain the first 3 letters of the variable word</li>
+                <li>word_last_2 should contain the last 2 letters of the variable word</li>
+                <li>middle_word should contain the value of the variable word without the first and last letters</li>
+            </ul>
+        </td>
+    </tr>
 </table>
