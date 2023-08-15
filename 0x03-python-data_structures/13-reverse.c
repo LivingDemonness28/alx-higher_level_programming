@@ -6,7 +6,7 @@
  * Return: ptr to head of rev list
 */
 
-listint_t _reverse(listint_t **head)
+listint_t *_reverse(listint_t **head)
 {
 listint_t *n = *head, *after, *before = NULL;
 
