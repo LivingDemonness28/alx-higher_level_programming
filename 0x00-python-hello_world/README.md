@@ -88,4 +88,18 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/6-concat.py" target="_blank">6-concat.py</a></h2>
+        </td>
+        <td>
+            <p>Complete this <a href="https://github.com/alx-tools/0x00.py/blob/master/6-concat.py">source code</a> to print Welcome to Holberton School!</p>
+            <ul>
+                <li>You can find the source code <a href="https://github.com/alx-tools/0x00.py/blob/master/6-concat.py">here</a>.</li>
+                <li>You are not allowed to use any loops or conditional statements.</li>
+                <li>You have to use the variables str1 and str2 in your new line of code</li>
+                <li>Your program should be exactly 5 lines long</li>
+            </ul>
+        </td>
+    </tr>
 </table>
