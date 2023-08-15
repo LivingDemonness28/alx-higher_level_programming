@@ -132,4 +132,15 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/9-easter_egg.py" target="_blank">9-easter_egg.py</a></h2>
+        </td>
+        <td>
+            <p>Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.</p>
+            <ul>
+                <li>Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)</li>
+            </ul>
+        </td>
+    </tr>
 </table>
