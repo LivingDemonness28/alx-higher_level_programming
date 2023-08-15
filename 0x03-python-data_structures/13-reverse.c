@@ -17,5 +17,5 @@ before = n;
 n = after;
 }
 *head = before;
-return (*head)
+return (*head);
 }
