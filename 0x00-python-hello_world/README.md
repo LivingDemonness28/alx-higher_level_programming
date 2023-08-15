@@ -170,4 +170,19 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/100-write.py" target="_blank">100-write.py</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/q" target="_blank">q</a></h2>
+        </td>
+        <td>
+            <p>Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.</p>
+            <ul>
+                <li>Use the function write from the sys module</li>
+                <li>You are not allowed to use print</li>
+                <li>Your script should print to stderr</li>
+                <li>Your script should exit with the status code 1</li>
+            </ul>
+        </td>
+    </tr>
 </table>
