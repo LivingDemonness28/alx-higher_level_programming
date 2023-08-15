@@ -153,7 +153,7 @@
             <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/10-print_listint.c" target="_blank">10-print_listint.c</a></h2>
         </td>
         <td>
-            <p><bold>Technical interview preparation:</bold></p>
+            <p><strong>Technical interview preparation:</strong></p>
             <ul>
                 <li>You are not allowed to google anything</li>
                 <li>Whiteboard first</li>
