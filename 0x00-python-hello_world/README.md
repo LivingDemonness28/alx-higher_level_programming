@@ -50,4 +50,22 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/4-print_float.py" target="_blank">4-print_float.py</a></h2>
+        </td>
+        <td>
+            <p>Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.</p>
+            <ul>
+                <li>You can find the source code <a href="https://github.com/alx-tools/0x00.py/blob/master/4-print_float.py" target="_blank">here</a>.</li>
+                <li>The output of the program should be:</li>
+                <ul>
+                    <li>Float:, followed by the float with only 2 digits</li>
+                    <li>followed by a new line</li>
+                </ul>
+                <li>You are not allowed to cast number to string</li>
+                <li>You have to use f-strings</li>
+            </ul>
+        </td>
+    </tr>
 </table>
