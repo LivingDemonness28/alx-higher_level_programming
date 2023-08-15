@@ -29,7 +29,7 @@ if ((size % 2) == 0 && current->n != current->next->n)
 return (0);
 
 current = current->next->next;
-rev = reverse_listint(&current);
+rev = _reverse(&current);
 mid = rev;
 
 current = *head;
@@ -40,7 +40,7 @@ return (0);
 current = current->next;
 rev = rev->next;
 }
-reverse_listint(&mid);
+_reverse(&mid);
 
 return (1);
 }
