@@ -1,11 +1,9 @@
 #include "lists.h"
 
 /**
-* is_palindrome - Checks if a singly linked list is a palindrome.
-* @head: A pointer to the head of the linked list.
-*
-* Return: If the linked list is not a palindrome - 0.
-* If the linked list is a palindrome - 1.
+* is_palindrome - Checks if list is palindrome.
+* @head: ptr to head of the linked list.
+* Return: 1 (Success), 0 (Otherwise).
 */
 int is_palindrome(listint_t **head)
 {
