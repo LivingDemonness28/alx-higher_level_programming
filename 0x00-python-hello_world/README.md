@@ -185,4 +185,16 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/101-compile" target="_blank">101-compile</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/main.py" target="_blank">main.py</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/main.pyc" target="_blank">main.pyc</a></h2>
+        </td>
+        <td>
+            <p>Write a script that compiles a Python script file.</p>
+            <p>The Python file name will be stored in the environment variable $PYFILE</p>
+            <p>The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)</p>
+        </td>
+    </tr>
 </table>
