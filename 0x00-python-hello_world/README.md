@@ -143,4 +143,31 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/10-check_cycle.c" target="_blank">10-check_cycle.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/lists.h" target="_blank">lists.h</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/10-add_nodeint.c" target="_blank">10-add_nodeint.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/10-main.c" target="_blank">10-main.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/10-free_listint.c" target="_blank">10-free_listint.c</a></h2>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/10-print_listint.c" target="_blank">10-print_listint.c</a></h2>
+        </td>
+        <td>
+            <p><bold>Technical interview preparation:</bold></p>
+            <ul>
+                <li>You are not allowed to google anything</li>
+                <li>Whiteboard first</li>
+                <li>This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.</li>
+            </ul>
+            <p>Write a function in C that checks if a singly linked list has a cycle in it.</p>
+            <ul>
+                <li>Prototype: int check_cycle(listint_t *list);</li>
+                <li>Return: 0 if there is no cycle, 1 if there is a cycle</li>
+            </ul>
+            <p>Requirements:</p>
+            <ul>
+                <li>Only these functions are allowed: write, printf, putchar, puts, malloc, free</li>
+            </ul>
+        </td>
+    </tr>
 </table>
