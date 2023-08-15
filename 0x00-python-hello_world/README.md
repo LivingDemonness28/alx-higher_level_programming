@@ -68,4 +68,24 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/5-print_string.py" target="_blank">5-print_string.py</a></h2>
+        </td>
+        <td>
+            <p>Complete this <a href="https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py">source code</a> in order to print 3 times a string stored in the variable str, followed by its first 9 characters.</p>
+            <ul>
+                <li>You can find the source code <a href="https://github.com/alx-tools/0x00.py/blob/master/5-print_string.py">here</a>.</li>
+                <li>The output of the program should be:</li>
+                <ul>
+                    <li>3 times the value of str</li>
+                    <li>followed by a new line</li>
+                    <li>followed by the 9 first characters of str</li>
+                    <li>followed by a new line</li>
+                </ul>
+                <li>You are not allowed to use any loops or conditional statement/li>
+                <li>Your program should be maximum 5 lines long</li>
+            </ul>
+        </td>
+    </tr>
 </table>
