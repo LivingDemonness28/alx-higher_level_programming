@@ -8,7 +8,7 @@ def divisible_by_2(my_list=[]):
         a = my_list[i] % 2
         if (a == 0):
             tof_list.append('True')
-        else:
+        elif (a == 1):
             tof_list.append('False')
         i += 1
     return (tof_list)
