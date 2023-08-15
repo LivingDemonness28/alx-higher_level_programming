@@ -117,4 +117,19 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>
+            <h2><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x00-python-hello_world/8-concat_edges.py" target="_blank">8-concat_edges.py</a></h2>
+        </td>
+        <td>
+            <p>Complete this <a href="https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py">source code</a> to print object-oriented programming with Python, followed by a new line.</p>
+            <ul>
+                <li>You can find the source code <a href="https://github.com/alx-tools/0x00.py/blob/master/8-concat_edges.py">here</a>.</li>
+                <li>You are not allowed to use any loops or conditional statements</li>
+                <li>Your program should be exactly 5 lines long</li>
+                <li>You are not allowed to create new variables</li>
+                <li>You are not allowed to use string literals</li>
+            </ul>
+        </td>
+    </tr>
 </table>
