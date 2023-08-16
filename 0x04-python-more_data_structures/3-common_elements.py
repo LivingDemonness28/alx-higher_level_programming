@@ -9,5 +9,4 @@ def common_elements(set_1, set_2):
             if (list_1[i] == list_2[j]):
                 list_3.append(list_2[j])
     
-    set_3 = set(list_3)
-    return(set_3)
+    return(set(list_3))
