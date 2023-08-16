@@ -1,3 +1,11 @@
-#!/bin/usr/python3
+#!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    return ([[ele ** 2 for ele in row] for row in matrix])
+    square_matrix = []
+
+    for i in range(0, len(matrix)):
+        row = []
+        for j in range(0, len(matrix[i])):
+            row.append(matrix[i][j]**2)
+        square_matrix.append(row)
+
+    return (square_matrix)
