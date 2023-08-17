@@ -6,7 +6,7 @@ def best_score(a_dictionary):
     max_value = max(a_dictionary.values())
     max_keys = [key for key, value in a_dictionary.items() if value == max_value]
 
-    if 1 < len(max_keys) or len(max_keys) <= 0:
+    if 1 < len(max_keys):
         return (None)
     else:
         return (max_keys[0])
