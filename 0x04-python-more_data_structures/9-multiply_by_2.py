@@ -2,6 +2,7 @@
 def multiply_by_2(a_dictionary):
     multi_dict = {}
     for i in a_dictionary:
-        val = multi_dict[i]
+        val = a_dictionary[i]
+        multi_dict[i] = a_dictionary[i]
         multi_dict[i] = 2*val
     return (multi_dict)
