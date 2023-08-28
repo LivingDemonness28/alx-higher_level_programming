@@ -14,4 +14,4 @@ def safe_print_list(my_list=[], x=0):
             print("Number must be 0 or higher")
             print(' ')
     res = ''.join(map(str, my_list[0 : x]))
-    print(res)
+    return(res)
