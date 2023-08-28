@@ -7,6 +7,6 @@ def safe_print_list(my_list=[], x=0):
                 print(item, end='')
                 printed_count += 1
         print()
-        return printed_count
+        return (printed_count)
     except:
-        return printed_count
+        return (printed_count)
