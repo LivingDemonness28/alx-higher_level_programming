@@ -9,7 +9,6 @@ def list_division(my_list_1, my_list_2, list_length):
         except (IndexError, TypeError):
             if ((i > len(my_list_1)) or (i > len(my_list_2))):
                 print("out of range")
-            elif((i <))
             else:
                 print("wrong type")
             div = 0
