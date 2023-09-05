@@ -16,7 +16,19 @@ This is a test file for the add_integer function.
 
 ::
 
+    >>> add_integer(None)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+::
+
     >>> add_integer("hello", "there")
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+::
+
+    >>> add_integer("world", 5)
     Traceback (most recent call last):
     TypeError: a must be an integer
 
@@ -25,3 +37,15 @@ This is a test file for the add_integer function.
     >>> add_integer(float('inf'))
     Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
+
+::
+
+    >>> add_integer(10.5, float('inf'))
+    Traceback (most recent call last):
+    OverflowError: cannot convert float infinity to integer
+
+::
+
+    >>> add_integer(float('nan'))
+    Traceback (most recent call last):
+    ValueError: cannot convert float NaN to integer
