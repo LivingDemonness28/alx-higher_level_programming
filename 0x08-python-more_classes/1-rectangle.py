@@ -43,5 +43,5 @@ class Rectangle:
     
     def get_attributes(self):
         """print attributes in order"""
-        return {'width': self.__width, 'height': self.__height}
+        return {'height': self.__height, 'width': self.__width}
     
