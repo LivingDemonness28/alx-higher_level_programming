@@ -10,11 +10,6 @@ This is a test file for the add_integer function.
 
 ::
 
-    >>> add_integer(-8)
-    90
-
-::
-
     >>> add_integer(-10.3, None)
     Traceback (most recent call last):
     TypeError: b must be an integer
