@@ -1,1 +1,2 @@
+#!/use/bin/python3
 type
