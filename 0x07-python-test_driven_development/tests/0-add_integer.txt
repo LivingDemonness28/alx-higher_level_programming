@@ -1,6 +1,6 @@
 # 0-add_integer.txt
 """
-This is a test file for the ```add_integer(a, b=98)``` function.
+This is a test file for the ```add_integer(a, b=98 )``` function.
 
 ::
 
