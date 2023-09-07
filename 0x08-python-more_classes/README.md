@@ -30,3 +30,10 @@
     <li>How does Python find the attributes of an object or class</li>
     <li>How to use the <code>getattr</code> function</li>
 </ul>
+
+<hr>
+
+<h2>Test Files :heavy_check_mark:</h2>
+<ul>
+    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/0-main.py" target="_blank">0-main.py</a></h3></li>
+</ul>
