@@ -90,11 +90,11 @@ class Rectangle:
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """get the Rectangle with greater area
-        
+
         Args:
             rect_1 (Rectangle): 1st Rectangle.
             rect_2 (Rectangle): 2nd Rectangle.
-        
+
         Raises:
             TypeError: If rect_1 or rect_2 is not a Rectangle.
         """
