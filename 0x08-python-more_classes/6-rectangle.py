@@ -71,7 +71,9 @@ class Rectangle:
         rect_list = "Rectangle(" + str(self.__width)
         rect_list += ", " + str(self.__height) + ")"
         return (rect_list)
-
+    
+    number_of_instances = 0
+    
     def __del__(self):
         """print message for deletion of rectangle"""
         type(self).number_of_instances -= 1
