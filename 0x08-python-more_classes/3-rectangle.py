@@ -60,10 +60,8 @@ class Rectangle:
             return("")
 
         rect = []
-        i = 0
-        while i < self.__height:
+        for i in range(self.__height):
             [rect.append('#') for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
-            i = i + 1
         return ("".join(rect))
