@@ -41,4 +41,5 @@
     <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/3-main.py" target="_blank">3-main.py</a></h3></li>
     <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/4-main.py" target="_blank">4-main.py</a></h3></li>
     <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/5-main.py" target="_blank">5-main.py</a></h3></li>
+    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/6-main.py" target="_blank">6-main.py</a></h3></li>
 </ul>
