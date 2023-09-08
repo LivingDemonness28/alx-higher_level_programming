@@ -97,3 +97,14 @@
     </ul>
     <li>You are not allowed to import any module</li>
 </ul>
+
+<hr>
+
+<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/3-rectangle.py" target="_blank">3-rectangle.py</a></h3>
+<p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>2-rectangle.py</code>)</p>
+<ul>
+    <li><code>print()</code> and <code>str()</code> should print the rectangle with the character <code>#</code>:</li>
+        <li>if <code>width</code> or <code>height</code> is equal to 0, return an empty string</li>
+    </ul>
+    <li>You are not allowed to import any module</li>
+</ul>
