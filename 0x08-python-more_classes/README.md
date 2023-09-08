@@ -48,7 +48,7 @@
 
 <hr>
 
-<h2>Taks :page_with_curl:</h2>
+<h2>Tasks :page_with_curl:</h2>
 
 <h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/0-rectangle.py" target="_blank">0-rectangle.py</a></h3>
 <ul>
