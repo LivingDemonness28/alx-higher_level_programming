@@ -35,15 +35,15 @@
 
 <h2>Test Files :heavy_check_mark:</h2>
 <ul>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/0-main.py" target="_blank">0-main.py</a></h3></li>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/1-main.py" target="_blank">1-main.py</a></h3></li>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/2-main.py" target="_blank">2-main.py</a></h3></li>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/3-main.py" target="_blank">3-main.py</a></h3></li>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/4-main.py" target="_blank">4-main.py</a></h3></li>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/5-main.py" target="_blank">5-main.py</a></h3></li>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/6-main.py" target="_blank">6-main.py</a></h3></li>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/7-main.py" target="_blank">7-main.py</a></h3></li>
-    <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/8-main.py" target="_blank">8-main.py</a></h3></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/0-main.py" target="_blank">0-main.py</a></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/1-main.py" target="_blank">1-main.py</a></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/2-main.py" target="_blank">2-main.py</a></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/3-main.py" target="_blank">3-main.py</a></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/4-main.py" target="_blank">4-main.py</a></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/5-main.py" target="_blank">5-main.py</a></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/6-main.py" target="_blank">6-main.py</a></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/7-main.py" target="_blank">7-main.py</a></li>
+    <li><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/8-main.py" target="_blank">8-main.py</a></li>
 </ul>
 
 <hr>
