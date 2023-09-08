@@ -120,6 +120,29 @@
 
 <hr>
 
+<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/6-rectangle.py" target="_blank">6-rectangle.py</a></h3>
+<p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>5-rectangle.py</code>)</p>
+<ul>
+    <li>Public class attribute <code>number_of_instances</code></code></li>
+    <ul>
+        <li>Initialized to <code>0</code></li>
+        <li>Incrememented during each new instance instantiation</li>
+        <li>Decremented during each instance deletion</li>
+    </ul>
+    <li>You are not allowed to import any module</li>
+</ul>
+
+<hr>
+
+<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/5-rectangle.py" target="_blank">5-rectangle.py</a></h3>
+<p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>4-rectangle.py</code>)</p>
+<ul>
+    <li>Print the message <code>Bye rectangle...</code> (<code>...</code> being 3 dots not  ellipsis) when an instance of <code>Rectangle</code> is deleted.</li>
+    <li>You are not allowed to import any module</li>
+</ul>
+
+<hr>
+
 <h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/5-rectangle.py" target="_blank">5-rectangle.py</a></h3>
 <p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>4-rectangle.py</code>)</p>
 <ul>
