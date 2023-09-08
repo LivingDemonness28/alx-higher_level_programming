@@ -20,3 +20,16 @@
     <li><a href="https://intranet.alxswe.com/rltoken/1v-d9Ol13JabJq8UI6MIPg" target="_blank">Unittest module</a></li>
     <li><a href="https://intranet.alxswe.com/rltoken/lB65hNMXBziXy4A0YLIOog" target="_blank">Interactive and Non-interactive tests</a></li>
 </ul>
+
+<hr>
+
+<h2><strong>General</strong></h2>
+
+<ul>
+    <li>What’s an interactive test</li>
+    <li>Why tests are important</li>
+    <li>How to write Docstrings to create tests</li>
+    <li>How to write documentation for each module and function</li>
+    <li>What are the basic option flags to create tests</li>
+    <li>How to find edge cases</li>
+</ul>
