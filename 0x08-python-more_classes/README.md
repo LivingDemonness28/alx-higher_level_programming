@@ -57,3 +57,28 @@
         <li>You are not allowed to import any module</li>
     </ul>
 </ul>
+<hr>
+<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/1-rectangle.py" target="_blank">1-rectangle.py</a></h3>
+<p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>0-rectangle.py</code>)</p>
+<ul>
+    <li>Private instance attribute <code>width</code>:</li>
+    <ul>
+        <li>property <code>def width(self):</code> to retrieve it</li>
+        <li>property setter <code>def width(self, value):</code> to set it:</li>
+        <ul>
+            <li><code>width</code> must be an integer, otherwise raise a <code>TypeError</code> exception with the message <code>width must be an integer</code></li>
+            <li>if <code>width</code> is less than <code>0</code>, raise a <code>ValueError</code> exception with the message <code>width must be >= 0</code></li>
+        </ul>
+    </ul>
+    <li>Private instance attribute <code>height</code>:</li>
+    <ul>
+        <li>property <code>def height(self):</code> to retrieve it</li>
+        <li>property setter <code>def height(self, value):</code> to set it:</li>
+        <ul>
+            <li><code>height</code> must be an integer, otherwise raise a <code>TypeError</code> exception with the message <code>height must be an integer</code></li>
+            <li>if <code>height</code> is less than <code>0</code>, raise a <code>ValueError</code> exception with the message <code>height must be >= 0</code></li>
+        </ul>
+    </ul>
+    <li>Instantiation with optional <code>width</code> and <code>height</code>: <code>def __init__(self, width=0, height=0):</code></li>
+    <li>You are not allowed to import any module</li>
+</ul>
