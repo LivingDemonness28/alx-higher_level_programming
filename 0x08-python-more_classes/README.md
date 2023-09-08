@@ -144,13 +144,27 @@
 <hr>
 
 <h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/7-rectangle.py" target="_blank">7-rectangle.py</a></h3>
-<p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>5-rectangle.py</code>)</p>
+<p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>6-rectangle.py</code>)</p>
 <ul>
-    <li>Public class attribute <code>print_symbol</code></code></li>
+    <li>Public class attribute <code>print_symbol</code></li>
     <ul>
         <li>Initialized to <code>#</code></li>
         <li>Used as symbol for string representation</li>
         <li>Can be any type</li>
+    </ul>
+    <li>You are not allowed to import any module</li>
+</ul>
+
+<hr>
+
+<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/8-rectangle.py" target="_blank">8-rectangle.py</a></h3>
+<p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>7-rectangle.py</code>)</p>
+<ul>
+    <li>Static method <code>def bigger_or_equal(rect_1, rect_2):</code> that returns the biggest rectangle based on the area</li>
+    <ul>
+        <li><code>rect_1</code> must be an instance of <code>Rectangle</code>, otherwise raise a <code>TypeError</code> exception with the message <code>rect_1 must be an instance of Rectangle</code></li>
+        <li><code>rect_2</code> must be an instance of <code>Rectangle</code>, otherwise raise a <code>TypeError</code> exception with the message <code>rect_2 must be an instance of Rectangle</code></li>
+        <li>Return <code>rect_1</code> if both have the same area value</li>
     </ul>
     <li>You are not allowed to import any module</li>
 </ul>
