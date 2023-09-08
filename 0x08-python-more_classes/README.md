@@ -1,4 +1,4 @@
-<h1>0x08. Python - More Classes and Objects</h1>
+<centre><h1>0x08. Python - More Classes and Objects</h1></centre>
 
 <hr>
 
@@ -44,4 +44,16 @@
     <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/6-main.py" target="_blank">6-main.py</a></h3></li>
     <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/7-main.py" target="_blank">7-main.py</a></h3></li>
     <li><h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/8-main.py" target="_blank">8-main.py</a></h3></li>
+</ul>
+
+<hr>
+
+<h2>Taks :page_with_curl:</h2>
+
+<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/0-rectangle.py" target="_blank">0-rectangle.py</a></h3>
+<ul>
+    <li>Write an empty class <code>Rectangle</code> that defines a rectangle:</li>
+    <ul>
+        <li>You are not allowed to import any module</li>
+    </ul>
 </ul>
