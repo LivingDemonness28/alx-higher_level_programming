@@ -57,7 +57,9 @@
         <li>You are not allowed to import any module</li>
     </ul>
 </ul>
+
 <hr>
+
 <h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/1-rectangle.py" target="_blank">1-rectangle.py</a></h3>
 <p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>0-rectangle.py</code>)</p>
 <ul>
@@ -80,5 +82,18 @@
         </ul>
     </ul>
     <li>Instantiation with optional <code>width</code> and <code>height</code>: <code>def __init__(self, width=0, height=0):</code></li>
+    <li>You are not allowed to import any module</li>
+</ul>
+
+<hr>
+
+<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x08-python-more_classes/2-rectangle.py" target="_blank">2-rectangle.py</a></h3>
+<p>Write a class <code>Rectangle</code> that defines a rectangle by: (based on <code>1-rectangle.py</code>)</p>
+<ul>
+    <li>Public instance method: <code>def area(self):</code> that returns the rectangle area</li>
+    <li>Public instance method: <code>def perimeter(self):</code> that returns the rectangle perimeter:</li>
+    <ul>
+        <li>if <code>width</code> or <code>height</code> is equal to <code>0</code>, perimeter is equal to <code>0</code></li>
+    </ul>
     <li>You are not allowed to import any module</li>
 </ul>
