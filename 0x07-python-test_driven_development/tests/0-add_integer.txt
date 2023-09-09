@@ -81,5 +81,5 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
 ::
 
     >>> add_integer(2, "hello")
-    Traceback: (most recent call last):
+    Traceback (most recent call last):
     TypeError: b must be an integer
