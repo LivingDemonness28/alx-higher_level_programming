@@ -7,6 +7,15 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
     >>> add_integer(1, 2)
     3
 
+Function works with floating point values.
+
+::
+
+    >>> add_integer(1.0, 2.0)
+    3
+
+Can combine floating and non-floating point values.
+
 ::
 
     >>> add_integer(1, 2.6)
@@ -15,11 +24,6 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
 ::
 
     >>> add_integer(1.7, 2)
-    3
-
-::
-
-    >>> add_integer(1.0, 2.0)
     3
 
 ::
@@ -37,6 +41,8 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
     >>> add_integer(-1.5, -2)
     -3
 
+Second argument is optional
+
 ::
 
     >>> add_integer(0)
@@ -47,6 +53,8 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
     >>> add_integer()
     Traceback (most recent call last):
     TypeError: add_integer() missing 1 required positional argument: 'a'
+
+If NaN is used the function will fail.
 
 ::
 
@@ -60,6 +68,9 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
     Traceback (most recent call last):
     TypeError: b must be an integer
 
+If infinity is used the function will fail,
+and an OverflowError occurs.
+
 ::
 
     >>> add_integer(float('inf'))
@@ -72,6 +83,9 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
     Traceback (most recent call last):
     ValueError: invalid literal for int() with base 10: 'inf'
 
+``add_integer`` expects both arguments to be integers or floats.
+If not a TypeError is raised.
+
 ::
 
     >>> add_integer("world")
@@ -83,5 +97,15 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
     >>> add_integer(2, "hello")
     Traceback (most recent call last):
     TypeError: b must be an integer
+
+If both a and b are neither integers nor floats,
+a TypeError message is printed for the first argument
+only.
+
+::
+
+    >>> add_integer("chocolate", "milk")
+    Traceback (most recent call last)
+    TypeError: a must be an integer
 
 ::
