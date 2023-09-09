@@ -62,13 +62,13 @@ If NaN is used the function will fail.
 
     >>> add_integer(float('nan'))
     Traceback (most recent call last):
-    ValueError: cannot convert float NaN to intege
+    ValueError: cannot convert float NaN to integer
 
 ::
 
     >>> add_integer(2, float('nan'))
     Traceback (most recent call last):
-    ValueError: cannot convert float NaN to intege
+    ValueError: cannot convert float NaN to integer
 
 ::
 
