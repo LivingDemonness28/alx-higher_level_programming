@@ -34,15 +34,19 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
 
 ::
 
-    >>> add_integer('nan', 2)
-    Traceback (most recent call last):
-    TypeError: a must be an integer
+    >>> add_integer(-1.5, -2)
+    -3
 
 ::
 
-    >>> add_integer(2, 'nan')
+    >>> add_integer(0)
+    98
+
+::
+
+    >>> add_integer()
     Traceback (most recent call last):
-    TypeError: b must be an integer
+    TypeError: add_integer() missing 1 required positional argument: 'a'
 
 ::
 
