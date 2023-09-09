@@ -50,15 +50,15 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
 
 ::
 
-    >>> add_integer(float('inf'))
+    >>> add_integer('nan', 2)
     Traceback (most recent call last):
-    OverflowError: cannot convert float infinity to integer
+    TypeError: a must be an integer
 
 ::
 
-    >>> add_integer(2, float('inf))
+    >>> add_integer(2, 'nan')
     Traceback (most recent call last):
-    OverflowError: cannot convert float infinity to integer
+    TypeError: b must be an integer
 
 ::
 
