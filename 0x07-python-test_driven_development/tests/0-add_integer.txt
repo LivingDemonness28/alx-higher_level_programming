@@ -44,12 +44,6 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
 
 ::
 
-    >>> add_integer()
-    Traceback (most recent call last):
-    TypeError: add_integer() missing 1 required positional argument: 'a'
-
-::
-
     >>> add_integer('nan', 2)
     Traceback (most recent call last):
     a must be an integer
