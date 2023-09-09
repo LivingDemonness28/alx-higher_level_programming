@@ -70,7 +70,7 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
 
     >>> add_integer(2, int('inf'))
     Traceback (most recent call last):
-    OverflowError: invalid literal for int() with base 10: 'inf'
+    ValueError: invalid literal for int() with base 10: 'inf'
 
 ::
 
