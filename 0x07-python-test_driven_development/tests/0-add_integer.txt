@@ -68,7 +68,7 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
 
 ::
 
-    >>> add_integer(2, float('inf))
+    >>> add_integer(2, float('inf'))
     Traceback (most recent call last):
     OverflowError: cannot convert float infinity to integer
 
