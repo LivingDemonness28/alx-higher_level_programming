@@ -25,15 +25,15 @@ def matrix_divided(matrix, div):
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
             if ((not isinstance(matrix[i][j], int)
-                and not isinstance(matrix[i][j], float))):
-                    raise TypeError(msg)
+            and not isinstance(matrix[i][j], float))):
+                raise TypeError(msg)
 
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
             if ((not isinstance(matrix[i][j], int)
-                and not isinstance(matrix[i][j], float))):
-                    raise TypeError(msg)
- 
+            and not isinstance(matrix[i][j], float))):
+                raise TypeError(msg)
+
             matrix[i][j] = int(matrix[i][j])
             matrix[i][j] = round(matrix[i][j]/div, 2)
 
