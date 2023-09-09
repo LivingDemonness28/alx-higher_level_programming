@@ -30,7 +30,8 @@ def matrix_divided(matrix, div):
     
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
-            if ((not isinstance(matrix[i][j], int) and not isinstance(matrix[i][j], float))):
+            if ((not isinstance(matrix[i][j], int)
+                and not isinstance(matrix[i][j], float))):
                 raise TypeError(msg)
             
             matrix[i][j] = int(matrix[i][j])
