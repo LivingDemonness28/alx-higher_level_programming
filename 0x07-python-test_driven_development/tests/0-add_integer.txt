@@ -68,12 +68,6 @@ This is a test file for the ```add_integer(a, b=98 )``` function.
 
 ::
 
-    >>> add_integer(2, int('inf'))
-    Traceback (most recent call last):
-    ValueError: invalid literal for int() with base 10: 'inf'
-
-::
-
     >>> add_integer("world")
     Traceback (most recent call last):
     TypeError: a must be an integer
