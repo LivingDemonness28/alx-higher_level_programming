@@ -4,7 +4,7 @@
 
 def matrix_divided(matrix, div):
     """Return int addition of a and b
-    
+
     Float arguments typecasted to integer before addition.
 
     Raises:
@@ -20,15 +20,18 @@ def matrix_divided(matrix, div):
     if ((not isinstance(div, int) and not isinstance(div, float))):
         raise TypeError("div must be a number")
     
+    msg = "matrix must be a matrix(list of lists) of integers/floats"
+
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
-            if ((not isinstance(matrix[i][j], int) and not isinstance(matrix[i][j], float))):
-                raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+            if ((not isinstance(matrix[i][j], int)
+                and not isinstance(matrix[i][j], float))):
+                raise TypeError(msg)
     
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
             if ((not isinstance(matrix[i][j], int) and not isinstance(matrix[i][j], float))):
-                raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
+                raise TypeError(msg)
             
             matrix[i][j] = int(matrix[i][j])
             matrix[i][j] = round(matrix[i][j]/div, 2)
