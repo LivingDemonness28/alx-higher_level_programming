@@ -41,7 +41,7 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
 
 ::
 
-    >>> matrix = [1, float('inf), 3]
+    >>> matrix = [1, float('inf'), 3]
     >>> matrix_divided(matrix, 0)
     Traceback (most recent call last):
     TypeError: matrix must be a matrix (list of lists) of integers/floats
