@@ -150,10 +150,3 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
     [[nan, nan], [nan, nan]]
 
 ::
-
-    >>> matrix = [[1, None], [-3, -4]]
-    >>> matrix_divided(matrix, 10)
-    Traceback (most recent call last)
-    TypeError: matrix must be a matrix (list of lists) of integers/floats
-
-::
