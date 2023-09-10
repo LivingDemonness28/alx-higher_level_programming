@@ -48,7 +48,7 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
 
 ::
 
-    >>> matrix = [[1, float('inf)], [3, 4]]
+    >>> matrix = [[1, float('inf')], [3, 4]]
     >>> matrix_divided(matrix, 0)
     Traceback (most recent call last):
     ZeroDivisionError: division by 0
