@@ -37,7 +37,9 @@ def matrix_divided(matrix, div):
         raise TypeError(msg4)
 
     for i in range(0, len(matrix)):
+        new_row = []
         for j in range(0, len(matrix[i])):
-            new_matrix.append(round(matrix[i][j]/div, 2))
+            new_row.append(round(matrix[i][j]/div, 2))
+        new_matrix.append(new_row)
 
     return (new_matrix)
