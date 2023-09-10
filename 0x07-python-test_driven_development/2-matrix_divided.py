@@ -20,6 +20,7 @@ def matrix_divided(matrix, div):
     msg2 = "Each row of the matrix must have the same size"
     msg3 = "division by zero"
     msg4 = "div must be a number"
+    new_matrix = []
 
     if (matrix == []):
         raise TypeError(msg1)
@@ -37,6 +38,6 @@ def matrix_divided(matrix, div):
 
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
-            matrix[i][j] = round(int(matrix[i][j])/div, 2)
+            new_matrix.append(round(matrix[i][j]/div, 2))
 
-    return (matrix)
+    return (new_matrix)
