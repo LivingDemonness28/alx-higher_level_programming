@@ -17,9 +17,9 @@ def matrix_divided(matrix, div):
         A new matrix representing the result of the division.
     """
     msg1 = "matrix must be a matrix(list of lists) of integers/floats"
-    msg2 = "division by zero"
-    msg3 = "div must be a number"
-    msg4 = "Each row of the matrix must have the same size"
+    msg2 = "Each row of the matrix must have the same size"
+    msg3 = "division by zero"
+    msg4 = "div must be a number"
 
     if (matrix == []):
         raise TypeError(msg1)
@@ -28,11 +28,11 @@ def matrix_divided(matrix, div):
     if (not all((isinstance(k, int)) or (isinstance(k, float))
                 for k in [num for i in matrix for num in i])):
         raise TypeError(msg1)
-    if (div == 0):
-        raise ZeroDivisionError(msg2)
-    if ((not isinstance(div, int) and not isinstance(div, float))):
-        raise TypeError(msg3)
     if (any(len(row) != len(matrix[0]) for row in matrix)):
+        raise TypeError(msg2)
+    if (div == 0):
+        raise ZeroDivisionError(msg3)
+    if ((not isinstance(div, int) and not isinstance(div, float))):
         raise TypeError(msg4)
 
     for i in range(0, len(matrix)):
