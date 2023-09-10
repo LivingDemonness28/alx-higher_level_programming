@@ -57,8 +57,7 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
 
     >>> matrix = [[1, float('inf')], [3, 4]]
     >>> matrix_divided(matrix, 2)
-    Traceback (most recent call last):
-    ZeroDivisionError: division by zero
+    [[0.5, inf], [1.5, 2.0]]
 
 ::
 
@@ -103,15 +102,13 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
     >>> matrix = [[-1, -2], [-3, -4]]
     >>> matrix_divided(matrix)
     Traceback (most recent call last):
-    TypeError: matrix_divided() missing 1 required
-    positional argument: 'div'
+    TypeError: matrix_divided() missing 1 required positional argument: 'div'
 
 ::
 
     >>> matrix_divided(div=0)
     Traceback (most recent call last):
-    TypeError: matrix_divided() missing 1 required
-    positional argument: 'matrix'
+    TypeError: matrix_divided() missing 1 required positional argument: 'matrix'
 
 ::
 
