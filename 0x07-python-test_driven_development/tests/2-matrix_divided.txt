@@ -5,6 +5,7 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
 
 ::
 
+    >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
     >>> matrix = []
     >>> matrix_divided(matrix, 2)
     Traceback (most recent call last):
