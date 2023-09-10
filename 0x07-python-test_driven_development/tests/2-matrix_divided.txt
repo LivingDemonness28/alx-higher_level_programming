@@ -9,8 +9,7 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
     >>> matrix = []
     >>> matrix_divided(matrix, 2)
     Traceback (most recent call last):
-    TypeError: matrix must be a matrix (list of lists) of
-    integers/float
+    TypeError: matrix must be a matrix (list of lists) of integers/float
 
 ::
 
