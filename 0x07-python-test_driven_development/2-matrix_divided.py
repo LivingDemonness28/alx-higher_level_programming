@@ -11,30 +11,32 @@ def matrix_divided(matrix, div):
         TypeError: matrix contain a val that isn't an int or float.
         TypeError: If matrix contains different row sizes.
         TypeError: If div not an int or float.
+
         ZeroDivisionError: If div is 0.
+    Returns:
+        A new matrix representing the result of the division.
     """
+    msg1 = "Each row of the matrix must have the same size"
+    msg2 = "division by zero"
+    msg3 = "div must be a number"
+    msg4 = "matrix must be a matrix(list of lists) of integers/floats"
+
     if (any(len(row) != len(matrix[0]) for row in matrix)):
-        raise TypeError("Each row of the matrix must have the same size")
+        raise TypeError(msg1)
     if (div == 0):
-        raise ZeroDivisionError("division by zero")
+        raise ZeroDivisionError(msg2)
     if ((not isinstance(div, int) and not isinstance(div, float))):
-        raise TypeError("div must be a number")
-
-    msg = "matrix must be a matrix(list of lists) of integers/floats"
-
+        raise TypeError(msg3)
+    if (matrix == []):
+        raise TypeError(msg4)
+    if (not all(isinstance(i, list) for i in matrix)):
+        raise TypeError(msg4)
+    if (not all((isinstance(k, int)) or (isinstance(k, float))
+            for k in [l for i in matrix for k in i])):
+        raise TypeError(msg4)
+    
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
-            if ((not isinstance(matrix[i][j], int)
-            and not isinstance(matrix[i][j], float))):
-                raise TypeError(msg)
-
-    for i in range(0, len(matrix)):
-        for j in range(0, len(matrix[i])):
-            if ((not isinstance(matrix[i][j], int)
-            and not isinstance(matrix[i][j], float))):
-                raise TypeError(msg)
-
-            matrix[i][j] = int(matrix[i][j])
-            matrix[i][j] = round(matrix[i][j]/div, 2)
+            matrix[i][j] = round(int(matrix[i][j])/div, 2)
 
     return (matrix)
