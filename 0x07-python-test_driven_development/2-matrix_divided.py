@@ -32,8 +32,8 @@ def matrix_divided(matrix, div):
     if (not all(isinstance(i, list) for i in matrix)):
         raise TypeError(msg4)
     if (not all((isinstance(k, int)) or (isinstance(k, float))
-            for k in [l for i in matrix for k in i])):
-        raise TypeError(msg4)
+            for k in [l for i in matrix for l in i])):
+                raise TypeError(msg4)
  
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
