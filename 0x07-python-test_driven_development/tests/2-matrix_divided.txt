@@ -51,7 +51,7 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
     >>> matrix = [[1, float('inf')], [3, 4]]
     >>> matrix_divided(matrix, 0)
     Traceback (most recent call last):
-    ZeroDivisionError: division by 0
+    ZeroDivisionError: division by zero
 
 ::
 
@@ -65,14 +65,14 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
     >>> matrix = [[2, float('nan')], [3, 4]]
     >>> matrix_divided(matrix, 0)
     Traceback (most recent call last):
-    ZeroDivisionError: division by 0
+    ZeroDivisionError: division by zero
 
 ::
 
     >>> matrix = [[1, float('nan')], [3, 4]]
     >>> matrix_divided(matrix, 0)
     Traceback (most recent call last):
-    ZeroDivisionError: division by 0
+    ZeroDivisionError: division by zero
 
 ::
 
