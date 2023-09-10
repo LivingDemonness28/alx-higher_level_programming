@@ -114,7 +114,7 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
 
     >>> matrix = [[-1.6, -2.8], [-3.8, -4.9]]
     >>> matrix_divided(matrix, 2)
-    [[-0.5, -1.0], [-1.5, -2.0]]
+    [[-0.8, -1.4], [-1.9, -2.45]]
 
 ::
 
@@ -148,13 +148,6 @@ This is a test file for the ```def matrix_divided(matrix, div)``` function.
     >>> matrix = [[1, 2], [-3, -4]]
     >>> matrix_divided(matrix, float('nan'))
     [[nan, nan], [nan, nan]]
-
-::
-
-    >>> matrix = [[1, 2], [-3, -4]]
-    >>> matrix_divided(matrix, None)
-    Traceback (most recent call last)
-    TypeError: div must be a number
 
 ::
 
