@@ -33,8 +33,8 @@ def matrix_divided(matrix, div):
         raise TypeError(msg4)
     if (not all((isinstance(k, int)) or (isinstance(k, float))
                 for k in [num for i in matrix for num in i])):
-            raise TypeError(msg4)
- 
+        raise TypeError(msg4)
+
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix[i])):
             matrix[i][j] = round(int(matrix[i][j])/div, 2)
