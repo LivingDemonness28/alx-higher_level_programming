@@ -16,7 +16,7 @@ def matrix_divided(matrix, div):
     Returns:
         A new matrix representing the result of the division.
     """
-    msg1 = "matrix must be a matrix(list of lists) of integers/floats"
+    msg1 = "matrix must be a matrix (list of lists) of integers/floats"
     msg2 = "Each row of the matrix must have the same size"
     msg3 = "division by zero"
     msg4 = "div must be a number"
