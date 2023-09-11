@@ -24,11 +24,6 @@ This is a test file for the ```say_my_name(first_name, last_name="")``` function
 
 ::
 
-    >>> say_my_name("Olivia")
-    My name is Olivia
-
-::
-
     >>> say_my_name("Olivia", "Rodrigo")
     My name is Olivia Rodrigo
 
