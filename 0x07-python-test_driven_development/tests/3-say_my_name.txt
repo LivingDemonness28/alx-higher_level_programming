@@ -1,0 +1,77 @@
+#3-say_my_name.txt
+
+"""
+This is a test file for the ```add_integer(a, b=98 )``` function.
+
+::
+
+    >>> add_integer = __import__('3-say_my_name').say_my_name
+    >>> say_my_name(Olivia, Rodrigo)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name("Olivia", Rodrigo)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+::
+
+    >>> say_my_name(Olivia, "Rodrigo)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name("Olivia")
+    My name is <Olivia> <>
+
+::
+
+    >>> say_my_name("Olivia", "Rodrigo")
+    My name is <Olivia> <Rodrigo>
+
+::
+
+    >>> say_my_name(2)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name("Olivia", 2)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+::
+
+    >>> say_my_name(2.0)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name(float('inf'))
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name(float('nan'))
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name("Olivia", None)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+::
+
+    >>> say_my_name(None, None)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
