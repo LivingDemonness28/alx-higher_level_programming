@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """Define a name printing function"""
 
 def say_my_name(first_name, last_name=""):
