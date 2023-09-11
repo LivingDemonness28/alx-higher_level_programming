@@ -19,3 +19,4 @@ def text_indentation(text):
         print("\n")
         if (i == (len(res_arr) - 1))
         print(res_arr[i])
+        i = i + 1
