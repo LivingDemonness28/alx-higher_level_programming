@@ -18,7 +18,7 @@ This is a test file for the ```say_my_name(first_name, last_name="")``` function
 
 ::
 
-    >>> say_my_name(Olivia, "Rodrigo)
+    >>> say_my_name(Olivia, "Rodrigo")
     Traceback (most recent call last):
     NameError: name 'Olivia' is not defined
 
