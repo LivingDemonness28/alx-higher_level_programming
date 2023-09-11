@@ -1,0 +1,93 @@
+#5-text_indentation.txt
+
+"""
+This is a test file for the ```def text_indentation(text)``` function.
+
+::
+
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+    >>> text_indentation("Olivia?Rodrigo")
+    Olivia
+
+    Rodrigo
+
+
+::
+
+    >>> text_indentation("Twinkle, twinkle, little star, How I wonder what you are? Up above the world so high, Like a diamond in the sky.")
+    Twinkle, twinkle, little star, How I wonder what you are
+
+    Up above the world so high, Like a diamond in the sky
+
+
+::
+
+    >>> text_indentation(float('inf'))
+    Traceback (most recent call last)
+    TypeError: text must be a string
+
+::
+
+    >>> text_indentation(float('nan'))
+    Traceback (most recent call last)
+    TypeError: text must be a string
+
+::
+
+    >>> text_indentation(float('inf'))
+    Traceback (most recent call last)
+    TypeError: text_indentation() missing 1 required positional argument 'text'
+
+::
+
+    >>> text_indentation(0)
+    Traceback (most recent call last)
+    TypeError: text must be a string
+
+::
+
+    >>> text_indentation(1.7)
+    Traceback (most recent call last)
+    TypeError: text must be a string
+
+::
+
+    >>> text_indentation(float('inf'))
+    Traceback (most recent call last)
+    TypeError: text must be a string
+
+::
+
+    >>> text_indentation('1.7')
+    1
+
+    7
+
+
+::
+
+    >>> text_indentation(-1.7)
+    Traceback (most recent call last)
+    TypeError: text must be a string
+
+::
+
+    >>> text_indentation('-1.7')
+    -1
+
+    7
+
+
+::
+
+    >>> text_indentation(int('inf'))
+    Traceback (most recent call last)
+    ValueError: invalid literal for int() with base 10: 'inf'
+
+::
+
+    >>> text_indentation(int('nan'))
+    Traceback (most recent call last)
+    ValueError: invalid literal for int() with base 10: 'nan'
+
+::
