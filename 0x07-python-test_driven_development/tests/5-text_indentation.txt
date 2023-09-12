@@ -11,7 +11,6 @@ This is a test file for the ```def text_indentation(text)``` function.
 
     Rodrigo
 
-
 ::
 
     >>> text_indentation("Twinkle, twinkle, little star, How I wonder what you are? Up above the world so high, Like a diamond in the sky.")
@@ -19,41 +18,40 @@ This is a test file for the ```def text_indentation(text)``` function.
 
     Up above the world so high, Like a diamond in the sky
 
-
 ::
 
     >>> text_indentation(float('inf'))
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     TypeError: text must be a string
 
 ::
 
     >>> text_indentation(float('nan'))
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     TypeError: text must be a string
 
 ::
 
     >>> text_indentation(float('inf'))
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     TypeError: text_indentation() missing 1 required positional argument 'text'
 
 ::
 
     >>> text_indentation(0)
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     TypeError: text must be a string
 
 ::
 
     >>> text_indentation(1.7)
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     TypeError: text must be a string
 
 ::
 
     >>> text_indentation(float('inf'))
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     TypeError: text must be a string
 
 ::
@@ -63,11 +61,10 @@ This is a test file for the ```def text_indentation(text)``` function.
 
     7
 
-
 ::
 
     >>> text_indentation(-1.7)
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     TypeError: text must be a string
 
 ::
@@ -77,17 +74,16 @@ This is a test file for the ```def text_indentation(text)``` function.
 
     7
 
-
 ::
 
     >>> text_indentation(int('inf'))
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     ValueError: invalid literal for int() with base 10: 'inf'
 
 ::
 
     >>> text_indentation(int('nan'))
-    Traceback (most recent call last)
+    Traceback (most recent call last):
     ValueError: invalid literal for int() with base 10: 'nan'
 
 ::
