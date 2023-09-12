@@ -25,7 +25,7 @@ def text_indentation(text):
     while(i < len(res_arr)):
         if (i < (len(res_arr)-1)):
             print(res_arr[i].strip())
-            print("\n")
+            print("")
         if (i == (len(res_arr) - 1)):
             print(res_arr[i].strip())
         i = i + 1
