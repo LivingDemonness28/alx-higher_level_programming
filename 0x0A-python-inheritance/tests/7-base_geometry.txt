@@ -85,3 +85,45 @@ This is a test file for the ```BaseGeometry``` class.
     TypeError: area() takes 1 positional argument but 2 were given
 
 ::
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("age", [18])
+    Traceback (most recent call last):
+    TypeError: age must be an integer
+
+::
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("age", (18,))
+    Traceback (most recent call last):
+    TypeError: age must be an integer
+
+::
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("age", None)
+    Traceback (most recent call last):
+    TypeError: age must be an integer
+
+::
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("age", {18, 14})
+    Traceback (most recent call last):
+    TypeError: age must be an integer
+
+::
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("age", float('inf'))
+    Traceback (most recent call last):
+    TypeError: age must be an integer
+
+::
+
+    >>> bg = BaseGeometry()
+    >>> bg.integer_validator("age", float('nan'))
+    Traceback (most recent call last):
+    TypeError: age must be an integer
+
+::
