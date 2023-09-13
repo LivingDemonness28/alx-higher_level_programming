@@ -3,9 +3,6 @@
 
 
 def read_file(filename=""):
-    try:
-        with open(filename, 'r', encoding='utf-8') as file:
-            for line in file:
-                print(line, end='')
-    except FileNotFoundError:
-        pass
+    """Print contents of a UTF8 text file to stdout."""
+    with open(filename, encoding="utf-8") as file:
+        print(file.read(), end="")
