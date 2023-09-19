@@ -19,3 +19,11 @@
     <li>What is **kwargs and how to use it</li>
     <li>How to handle named arguments in a function</li>
 </ul>
+
+<hr>
+
+<h2>Tasks :page_with_curl:</h2>
+<h1><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/tests" target="_blank">tests</a></h1>
+<p>All your files, classes and methods must be unit tested and be PEP 8 validated.</p>
+
+<hr>
