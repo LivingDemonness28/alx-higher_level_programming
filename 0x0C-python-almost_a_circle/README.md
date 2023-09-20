@@ -46,4 +46,33 @@
     </ul>
 </ul>
 <p>This class will be the “base” of all other classes in this project. The goal of it is to manage <code>id</code> attribute in all your future classes and to avoid duplicating the same code (by extension, same bugs)</p>
+
+<hr>
+
+<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/rectangle.py" target="_blank">models/rectangle.py</a></h3>
+<p>Write the class <code>Rectangle</code> that inherits from <code>Base</code>:</p>
+
+<ul>
+    <li>In the file <code>model/rectangle.py</code></li>
+    <li>Class <code>Rectangle</code> inherits from <code>Base</code></li>
+    <li>Private instance attributes, each with its own public getter and setter:
+        <ul>
+            <li><code>__width</code> -> <code>width</code></li>
+            <li><code>__height</code> -> <code>height</code></li>
+            <li><code>__x</code> -> <code>x</code></li>
+            <li><code>__y</code> -> <code>y</code></li>
+        </ul>
+    </li>
+    <li>Class constructor: <code>def __init__(self, width, height, x=0, y=0, id=None)</code>:
+        <ul>
+            <li>Call the super class with <code>id</code> - this super call with use the logic of the <code>__init__</code> of the <code>Base</code> class</li>
+            <li>Assign each argument <code>width</code>, <code>height</code>, <code>x</code> and <code>y</code>to the right attribute?</li>
+        </ul>
+    </li>
+</ul>
+
+<p>Why private attributes with getter/setter? Why not directly public attribute?</p>
+
+<p>Because we want to protect attributes of our class. With a setter, you are able to validate what a developer is trying to assign to a variable. So after, in your class you can “trust” these attributes.</p>
+
 <hr>
