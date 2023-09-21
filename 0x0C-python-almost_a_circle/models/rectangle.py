@@ -21,14 +21,15 @@ class Rectangle(Base):
             TypeError: If x or y is not an int.
             ValueError: If x or y are smaller than or equal to 0.
         """
-        super().__init__(id)
         self.width = width
         self.height = height
         self.x = x
         self.y = y
+        super().__init__(id)
 
     @property
     def width(self):
+        """set/get width coordinate of Rectangle."""
         return (self.__width)
 
     @width.setter
@@ -41,6 +42,7 @@ class Rectangle(Base):
 
     @property
     def height(self):
+        """set/get height coordinate of Rectangle."""
         return (self.__height)
 
     @height.setter
