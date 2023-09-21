@@ -93,9 +93,9 @@
 <p>Update the class <code>Rectangle</code> by adding validation of all setter methods and instantiation (<code>id</code> excluded):</p>
 
 <ul>
-    <li>f the input is not an integer, raise the <code>TypeError</code> exception with the message: <code><name of the attribute> must be an integer</code>. Example: <code>width must be an integer</code></li>
-    <li>If <code>width</code> or <code>height</code> is under or equals 0, raise the <code>ValueError</code> exception with the message: <code><name of the attribute> must be > 0</code>. Example: <code>width must be > 0</code></li>
-    <li>If <code>x</code>or <code>y</code> is under 0, raise the <code>ValueError</code> exception with the message: <code><name of the attribute> must be >= 0</code>. Example: <code>x must be >= 0</code></li>
+    <li>f the input is not an integer, raise the <code>TypeError</code> exception with the message: <code>name of the attribute must be an integer</code>. Example: <code>width must be an integer</code></li>
+    <li>If <code>width</code> or <code>height</code> is under or equals 0, raise the <code>ValueError</code> exception with the message: <code>name of the attribute must be > 0</code>. Example: <code>width must be > 0</code></li>
+    <li>If <code>x</code>or <code>y</code> is under 0, raise the <code>ValueError</code> exception with the message: <code>name of the attribute must be >= 0</code>. Example: <code>x must be >= 0</code></li>
 </ul>
 
 <hr>
