@@ -35,3 +35,42 @@ class Square(Rectangle):
         of a Square.
         """
         return (f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}")
+
+    def update(self, *args, **kwargs):
+        """
+        Update the attribute of the Square
+        instance using no-keyword arguments
+
+        Args (in order):
+        1st arg: id attribute
+        2nd arg: width attribute
+        3rd: height attribute
+        4th: x attribute
+        5th: y attribute
+        If **kwargs exists, it is used to update attributes
+        with key-val pairs, where each key represents
+        an attribute.
+
+        Arg order is not important.
+        """
+        if args:
+            length = len(args)
+
+            if (length >= 1):
+                self.id = args[0]
+            if (length >= 2):
+                self.width = args[1]
+            if (length >= 3):
+                self.height = args[2]
+            if (length >= 4):
+                self.x = args[3]
+        else:
+            for k, v in kwargs.items():
+                if (k == "id"):
+                    self.id = v
+                elif (k == "size"):
+                    self.size = v
+                elif (k == "x"):
+                    self.x = v
+                elif (k == "y"):
+                    self.y = v
