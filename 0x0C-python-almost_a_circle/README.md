@@ -115,3 +115,11 @@
 <p>Update the class <code>Rectangle</code> by adding the public method <code>def display(self):</code> that prints in stdout the <code>Rectangle</code> instance with the character <code>#</code> - you don't need to handle <code>x</code> and <code>y</code> here.</p>
 
 <hr>
+
+<h3>6. __str__</h3>
+
+<a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/rectangle.py" target="_blank">models/rectangle.py</a>
+
+<p>Update the class <code>Rectangle</code> by overriding the <code>__str__</code> the method so that it returns <code>[Rectangle] (\<id\>) \<x\>/\<y\> - \<width\>/\<height\></code></p>
+
+<hr>
