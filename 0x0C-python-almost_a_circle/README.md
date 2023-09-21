@@ -24,13 +24,19 @@
 
 <h2>Tasks :page_with_curl:</h2>
 
-<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/tests" target="_blank">tests</a></h3>
+<h3>0. If it's not tested it doesn't work</h3>
+
+<a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/tests" target="_blank">tests</a>
+
 <p>All your files, classes and methods must be unit tested and be PEP 8 validated.</p>
 
 <hr>
 
-<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/base.py" target="_blank">models/base.py</a></h3>
-<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/__init__.py" target="_blank">models/__init__.py</a></h3>
+<h3>1. Base class</h3>
+
+<a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/base.py" target="_blank">models/base.py</a>
+<a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/__init__.py" target="_blank">models/__init__.py</a>
+
 <p>Write the first class <code>Base</code>:</p>
 <p>Create a folder named <code>models</code> with an empty file <code>__init__.py</code> inside - with this file, the folder will become a Python package</p>
 <p>Create a file named <code>models/base.py</code>:</p>
@@ -49,7 +55,10 @@
 
 <hr>
 
-<h3><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/rectangle.py" target="_blank">models/rectangle.py</a></h3>
+<h3>2. First Rectangle</h3>
+
+<a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/rectangle.py" target="_blank">models/rectangle.py</a>
+
 <p>Write the class <code>Rectangle</code> that inherits from <code>Base</code>:</p>
 
 <ul>
@@ -74,5 +83,19 @@
 <p>Why private attributes with getter/setter? Why not directly public attribute?</p>
 
 <p>Because we want to protect attributes of our class. With a setter, you are able to validate what a developer is trying to assign to a variable. So after, in your class you can “trust” these attributes.</p>
+
+<hr>
+
+<h3>3. Validate attributes</h3>
+
+<a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/rectangle.py" target="_blank">models/rectangle.py</a>
+
+<p>Update the class <code>Rectangle</code> by adding validation of all setter methods and instantiation (<code>id</code> excluded):</p>
+
+<ul>
+    <li>f the input is not an integer, raise the <code>TypeError</code> exception with the message: <code><name of the attribute> must be an integer</code>. Example: <code>width must be an integer</code></li>
+    <li>If <code>width</code> or <code>height</code> is under or equals 0, raise the <code>ValueError</code> exception with the message: <code><name of the attribute> must be > 0</code>. Example: <code>width must be > 0</code></li>
+    <li>If <code>x</code>or <code>y</code> is under 0, raise the <code>ValueError</code> exception with the message: <code><name of the attribute> must be >= 0</code>. Example: <code>x must be >= 0</code></li>
+</ul>
 
 <hr>
