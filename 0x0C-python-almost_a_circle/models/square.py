@@ -21,5 +21,5 @@ class Square(Rectangle):
         Return a formatted string representation
         of a Square.
         """
-        return (f"[Square] ({self.id}) {self.x}/{self.y}" +
-                f" - {self.width}")
+        return ("[Square] ({}) {}/{} - {}"
+                .format(self.id, self.x, self.y, self.width))
