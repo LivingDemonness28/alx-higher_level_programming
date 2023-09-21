@@ -99,3 +99,11 @@
 </ul>
 
 <hr>
+
+<h3>4. Area first</h3>
+
+<a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/rectangle.py" target="_blank">models/rectangle.py</a>
+
+<p>Update the class <code>Rectangle</code> by adding the public method <code>def area(self):</code> that returns the area value of the <code>Rectangle</code> instance.</p>
+
+<hr>
