@@ -19,7 +19,7 @@ class Square(Rectangle):
     def __str__(self):
         """
         Return a formatted string representation
-        of the Square instance.
+        of a Square.
         """
         return (f"[Square] ({self.id}) {self.x}/{self.y}" +
-                f"- {self.width}")
+                f" - {self.width}")
