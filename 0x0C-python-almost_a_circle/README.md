@@ -131,3 +131,19 @@
 <p>Update the class <code>Rectangle</code> by improving the public method <code>def display(self):</code> to print in stdout the <code>Rectangle</code> instance with the character <code>#</code> by taking care of <code>x</code> and <code>y</code></p>
 
 <hr>
+
+<h3>8. Update #0</h3>
+
+<a href="https://github.com/LivingDemonness28/alx-higher_level_programming/tree/main/0x0C-python-almost_a_circle/models/rectangle.py" target="_blank">models/rectangle.py</a>
+
+<p>Update the class <code>Rectangle</code> by improving the public method <code>def update(self, *args):</code> that assigns an argument to each attribute</p>
+
+<ul>
+    <li>1st argument should be the <code>id</code> attribute</li>
+    <li>2nd argument should be the <code>width</code> attribute</li>
+    <li>3rd argument should be the <code>height</code> attribute</li>
+    <li>4th argument should be the <code>x</code> attribute</li>
+    <li>5th argument should be the <code>y</code> attribute</li>
+</ul>
+
+<hr>
