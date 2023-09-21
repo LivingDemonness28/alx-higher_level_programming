@@ -91,5 +91,5 @@ class Rectangle(Base):
     def __str__(self):
         """Returms formatted string representation of
         Rectangle instance."""
-        return (f"[Rectangle] ({self.id}) {self.x}/{self.y} -" +
+        return (f"[Rectangle] ({self.id}) {self.x}/{self.y} - " +
                 f"{self.width}/{self.height}")
