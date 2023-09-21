@@ -97,7 +97,7 @@ class Rectangle(Base):
         return (f"[Rectangle] ({self.id}) {self.x}/{self.y} - " +
                 f"{self.width}/{self.height}")
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """
         Update the attribute of the Rectangle
         instance using no-keyword arguments
@@ -108,16 +108,34 @@ class Rectangle(Base):
         3rd: height attribute
         4th: x attribute
         5th: y attribute
-        """
-        length = len(args)
+        If **kwargs exists, it is used to update attributes
+        with key-val pairs, where each key represents
+        an attribute.
 
-        if (length >= 1):
-            self.id = args[0]
-        if (length >= 2):
-            self.width = args[1]
-        if (length >= 3):
-            self.height = args[2]
-        if (length >= 4):
-            self.x = args[3]
-        if (length >= 5):
-            self.y = args[4]
+        Arg order is not important.
+        """
+        if args:
+            length = len(args)
+
+            if (length >= 1):
+                self.id = args[0]
+            if (length >= 2):
+                self.width = args[1]
+            if (length >= 3):
+                self.height = args[2]
+            if (length >= 4):
+                self.x = args[3]
+            if (length >= 5):
+                self.y = args[4]
+        else:
+            for k, v in kwargs.items():
+                if (k == "id"):
+                    self.id = v
+                elif (k == "width"):
+                    self.width = v
+                elif (k == "height"):
+                    self.height = v
+                elif (k == "x"):
+                    self.x = v
+                elif (k == "y"):
+                    self.y = v
