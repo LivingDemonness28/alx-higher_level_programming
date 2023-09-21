@@ -98,6 +98,17 @@ class Rectangle(Base):
                 f"{self.width}/{self.height}")
 
     def update(self, *args):
+        """
+        Update the attribute of the Rectangle
+        instance using no-keyword arguments
+
+        Args (in order):
+        1st arg: id attribute
+        2nd arg: width attribute
+        3rd: height attribute
+        4th: x attribute
+        5th: y attribute
+        """
         length = len(args)
 
         if (length >= 1):
