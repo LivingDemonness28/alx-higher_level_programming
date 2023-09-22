@@ -92,8 +92,7 @@ class Base:
         fn = cls.__name__ + "json"
         try:
             with open(fn, "r") as file:
-                jd = file.read()
-                dl = cls.from_json_string(jd)
+                dl = Base.from_json_string(file.read())
                 return ([cls.create(**i) for i in dl])
-        except FileNotFoundError:
+        except IOError:
             return ([])
