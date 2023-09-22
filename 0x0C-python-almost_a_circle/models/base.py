@@ -43,7 +43,7 @@ class Base:
             list_objs (list): List of inherited Base instances.
         """
         fn = cls.__name__ + ".json"
-        with open(file, "w") as file:
+        with open(fn, "w") as file:
             if (list_objs is None):
                 file.write("[]")
             else:
