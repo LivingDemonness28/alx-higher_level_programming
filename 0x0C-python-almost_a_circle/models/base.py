@@ -49,3 +49,17 @@ class Base:
             json_data = cls.to_json_string([o.to_dictionary()
                                             for o in list_objs])
             file.write(json_data)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """Return deserialization of JSON string.
+
+        Args:
+            json_string (str): JSON str representation of list of dicts.
+        Returns:
+            If json_string is None - an empty list.
+            Otherwise - Python list represented by json_string.
+        """
+        if (not json_string):
+            return ([])
+        return json.loads(json_string)
