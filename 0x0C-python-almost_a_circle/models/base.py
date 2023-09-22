@@ -137,12 +137,12 @@ class Base:
                 il = []
                 for i in reader:
                     if (cls.__name__ == "Rectangle"):
-                        ins = cls(int(r[1]), int(r[2]),
-                                  int(r[3]), int(r[4]),
-                                  int(r[0]))
+                        ins = cls(int(i[1]), int(i[2]),
+                                  int(i[3]), int(i[4]),
+                                  int(i[0]))
                     elif (cls.__name__ == "Square"):
-                        ins = cls(int(r[1]), int(r[2]),
-                                  int(r[3]), int(r[0]))
+                        ins = cls(int(i[1]), int(i[2]),
+                                  int(i[3]), int(i[0]))
                     il.append(ins)
         except FileNotFoundError:
             return ([])
