@@ -89,11 +89,10 @@ class Base:
             If file doesn't exist - an empty list.
             Otherwise - List of instantiated classes.
         """
-        fn = cls.__name__ + ".json"
+        fn = str(cls.__name__) + ".json"
         try:
             with open(fn, "r") as file:
-                jd = file.read()
-                dl = cls.from_json_string(jd)
-                return ([cls.create(**i) for i in dl])
-        except FileNotFoundError:
+                ld = Base.from_json_string(file.read())
+                return ([cls.create(**i) for i in ld])
+        except IOError:
             return ([])
