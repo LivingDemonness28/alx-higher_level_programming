@@ -109,13 +109,16 @@ class Base:
         """
         fn = cls.__name__ + ".csv"
         with open(fn, mode="w", newline='') as file:
-            writer = csv.writer(file)
-            for i in list_objs:
-                if (cls.__name__ == "Rectangle"):
-                    r = [i.id, i.width, i.height. i.x, i.y]
-                elif (cls.__name__ == "Square"):
-                    r = [i.id, i.size, i.x, i.y]
-                writer.writerow(r)
+            if (list_objs is None or list_objs == []):
+                file.write("[]")
+            else:
+                writer = csv.writer(file)
+                for i in list_objs:
+                    if (cls.__name__ == "Rectangle"):
+                        r = [i.id, i.width, i.height. i.x, i.y]
+                    elif (cls.__name__ == "Square"):
+                        r = [i.id, i.size, i.x, i.y]
+                    writer.writerow(r)
 
     @classmethod
     def load_from_file_csv(cls):
