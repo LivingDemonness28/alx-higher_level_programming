@@ -132,17 +132,15 @@ class Base:
         """
         fn = cls.__name__ + ".csv"
         try:
-            with open(fn, mode="r") as file:
-                reader = csv.reader(file)
-                il = []
-                for i in reader:
-                    if (cls.__name__ == "Rectangle"):
-                        ins = cls(int(i[1]), int(i[2]),
-                                  int(i[3]), int(i[4]),
-                                  int(i[0]))
-                    elif (cls.__name__ == "Square"):
-                        ins = cls(int(i[1]), int(i[2]),
-                                  int(i[3]), int(i[0]))
-                    il.append(ins)
-        except FileNotFoundError:
+            with open(fn, "r", newline="") as file:
+                if (cls.__name__ == "Rectangle"):
+                    fields = ["id", "width", "height", "x", "y"]
+                else:
+                    fields = ["id", "size", "x", "y"]
+                ld = csv.DictReader(file, fields=fields)
+                ld = [dict([key, int(val)]
+                           for key, val in i.items())
+                              for i in ld]
+                return [cls.create(**i) for i in ld]
+        except IOError:
             return ([])
