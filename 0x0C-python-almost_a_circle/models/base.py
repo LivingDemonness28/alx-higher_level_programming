@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Defines a base model class."""
 import json
-import csv
 
 
 class Base:
@@ -98,48 +97,4 @@ class Base:
                 dl = cls.from_json_string(jd)
                 return ([cls.create(**i) for i in dl])
         except FileNotFoundError:
-            return ([])
-
-    @classmethod
-    def save_to_file_csv(cls, list_objs):
-        """Write CSV serialization of list of objects to file.
-
-        Args:
-            list_objs (list): List of inherited Base instances.
-        """
-        fn = cls.__name__ + ".csv"
-        with open(fn, mode="w", newline='') as file:
-            if (list_objs is None or list_objs == []):
-                file.write("[]")
-            else:
-                writer = csv.writer(file)
-                for i in list_objs:
-                    if (cls.__name__ == "Rectangle"):
-                        r = [i.id, i.width, i.height. i.x, i.y]
-                    elif (cls.__name__ == "Square"):
-                        r = [i.id, i.size, i.x, i.y]
-                    writer.writerow(r)
-
-    @classmethod
-    def load_from_file_csv(cls):
-        """Return list of classes instantiated from CSV file.
-
-        Reads from `<cls.__name__>.csv`.
-
-        Returns:
-            If the file doesn't exist - an empty list.
-            Otherwise - List of instantiated classes.
-        """
-        fn = cls.__name__ + ".csv"
-        try:
-            with open(fn, "r", newline="") as file:
-                if (cls.__name__ == "Rectangle"):
-                    fields = ["id", "width", "height", "x", "y"]
-                else:
-                    fields = ["id", "size", "x", "y"]
-                ld = csv.DictReader(file, fields=fields)
-                ld = [dict([key, int(val)] for key, val in i.items())
-                              for i in ld]
-                return [cls.create(**i) for i in ld]
-        except IOError:
             return ([])
