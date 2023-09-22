@@ -138,8 +138,7 @@ class Base:
                 else:
                     fields = ["id", "size", "x", "y"]
                 ld = csv.DictReader(file, fields=fields)
-                ld = [dict([key, int(val)]
-                           for key, val in i.items())
+                ld = [dict([key, int(val)] for key, val in i.items())
                               for i in ld]
                 return [cls.create(**i) for i in ld]
         except IOError:
