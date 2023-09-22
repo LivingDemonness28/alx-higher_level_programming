@@ -108,7 +108,7 @@ class Base:
             list_objs (list): List of inherited Base instances.
         """
         fn = cls.__name__ + ".csv"
-        with open(fn, "w", '') as file:
+        with open(fn, mode="w", newline='') as file:
             writer = csv.writer(file)
             for i in list_objs:
                 if (cls.__name__ == "Rectangle"):
@@ -129,7 +129,7 @@ class Base:
         """
         fn = cls.__name__ + ".csv"
         try:
-            with open(fn, "r") as file:
+            with open(fn, mode="r") as file:
                 reader = csv.reader(file)
                 il = []
                 for i in reader:
