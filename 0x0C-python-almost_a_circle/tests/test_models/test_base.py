@@ -1,28 +1,24 @@
 #!/usr/bin/python3
-"""Defines a base model class."""
+"""Defines unittests for base.py.
+
+Unittest classes:
+    TestBase - line 21
+"""
 import unittest
 from models.base import Base
+from models.rectangle import Rectangle
+from models.square import Square
 
-class TestBase(unittest.TestCase):
-    def test_to_json_string(self):
-        # Write test cases for the to_json_string method
-        pass
+class TestBase_instantiate(unittest.TestCase):
+    """Unittests for instantiation of the Base class."""
+    def test_auto_increment_id(self):
+        base1 = Base()
+        base2 = Base()
+        base3 = Base()
 
-    def test_save_to_file(self):
-        # Write test cases for the save_to_file method
-        pass
-
-    def test_from_json_string(self):
-        # Write test cases for the from_json_string method
-        pass
-
-    def test_create(self):
-        # Write test cases for the create method
-        pass
-
-    def test_load_from_file(self):
-        # Write test cases for the load_from_file method
-        pass
+        +self.assertEqual(base1.id, 1)
+        self.assertEqual(base2.id, 2)
+        self.assertEqual(base3.id, 3)
 
 if __name__ == '__main__':
     unittest.main()
