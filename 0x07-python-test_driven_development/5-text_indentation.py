@@ -14,17 +14,17 @@ def text_indentation(text):
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
-    new_text = ""
-    newline = False
+    char = 0
+    for char in range(len(text)):
+        if text[char] != ' ':
+            break
 
-    for char in text:
-        if char in ['.', '?', ':']:
-            new_text += char + '\n\n'
-            newline = True
-        elif char == ' ' and newline:
+    for char in range(len(text)):
+        print(text[char], end="")
+        if text[char] == "\n" or text[char] in ".?:":
+            if text[char] in ".?:":
+                print("\n")
+            for char in range(char + 1, len(text)):
+                if text[char] != ' ':
+                    break
             continue
-        else:
-            new_text += char
-            newline = False
-
-    print(new_text)
