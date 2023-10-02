@@ -1,4 +1,4 @@
-#usr/bin/python3
+#!usr/bin/python3
 """Reads from stdin and computes metrics.
 
 After every ten lines or the input of a keyboard interruption (CTRL + C),
