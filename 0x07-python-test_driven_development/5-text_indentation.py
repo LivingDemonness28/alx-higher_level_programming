@@ -11,21 +11,20 @@ def text_indentation(text):
     Raises:
         TypeError: If text type is not string.
     """
-    if (not isinstance(text, str)):
+    if not isinstance(text, str):
         raise TypeError("text must be a string")
-    
-    common_del = '|'
-    for delim in ['.', '?', ':']:
-        text = text.replace(delim, common_del)
-    
-    res_arr = text.split(common_del)
 
-    i = 0
+    new_text = ""
+    newline = False
 
-    while(i < len(res_arr)):
-        if (i < (len(res_arr)-1)):
-            print(res_arr[i].strip())
-            print("")
-        if (i == (len(res_arr) - 1)):
-            print(res_arr[i].strip())
-        i = i + 1
+    for char in text:
+        if char in ['.', '?', ':']:
+            new_text += char + '\n\n'
+            newline = True
+        elif char == ' ' and newline:
+            continue
+        else:
+            new_text += char
+            newline = False
+
+    print(new_text)
