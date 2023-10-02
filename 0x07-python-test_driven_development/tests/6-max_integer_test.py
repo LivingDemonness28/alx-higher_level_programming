@@ -25,7 +25,7 @@ class TestMaxInteger(unittest.TestCase):
     def test_ordered_list(self):
         """Test an ordered list of integers."""
         ordered = [22, 23, 24, 25]
-        self.assertEqual(max_integer(ordered), 4)
+        self.assertEqual(max_integer(ordered), 25)
 
     def test_max_at_begginning(self):
         """Test a list with a beginning max value."""
