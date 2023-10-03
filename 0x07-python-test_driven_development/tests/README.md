@@ -1,1 +1,0 @@
-<h1>Tests for 0x07. Python - Test-driven development functions</h1>
