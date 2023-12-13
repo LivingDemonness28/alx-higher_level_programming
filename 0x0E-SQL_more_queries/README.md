@@ -82,3 +82,17 @@ $
 <p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/1-create_user.sql" target="_blank">1-create_user.sql</a></p>
 
 <hr>
+
+<h3>2. Read user</h3>
+<p>Write a script that creates the database <code>hbtn_0d_2</code> and the user <code>user_0d_2</code>.</p>
+<ul>
+    <li><code>user_0d_2</code> should have only SELECT privilege in the database <code>hbtn_0d_2</code></li>
+    <li>The <code>user_0d_2</code> password should be set to <code>user_0d_2_pwd</code></li>
+    <li>If the database <code>hbtn_0d_2</code> already exists, your script should not fail</li>
+    <li>If the user <code>user_0d_2</code> already exists, your script should not fail</li>
+</ul>
+
+<h3><strong>Files</strong></h3>
+<p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/2-create_read_user.sql" target="_blank">2-create_read_user.sql</a></p>
+
+<hr>
