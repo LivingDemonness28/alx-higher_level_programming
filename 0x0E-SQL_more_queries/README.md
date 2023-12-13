@@ -60,3 +60,7 @@ id  name
 8   Thriller
 $
 ```
+
+<h2>Tasks :page_with_curl:</h2>
+<h3>0. My privileges!</h3>
+<p>Write a script that lists all privileges of the MySQL users <code>user_0d_1</code> and <code>user_0d_2</code> on your server (in <code>localhost</code>).</p>
