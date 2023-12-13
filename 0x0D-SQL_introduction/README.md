@@ -6,7 +6,7 @@
     <li><a href="https://intranet.alxswe.com/concepts/37" target="_blank">Databases</a></li>
 </ul>
 
-!(alt-text)[https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg]
+![alt-text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/rtcwz.jpg)
 
 <h2>Resources</h2>
 <ul>
