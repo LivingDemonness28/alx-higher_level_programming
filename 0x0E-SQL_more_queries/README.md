@@ -64,3 +64,21 @@ $
 <h2>Tasks :page_with_curl:</h2>
 <h3>0. My privileges!</h3>
 <p>Write a script that lists all privileges of the MySQL users <code>user_0d_1</code> and <code>user_0d_2</code> on your server (in <code>localhost</code>).</p>
+
+<h3><strong>Files</strong></h3>
+<p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/0-privileges.sql" target="_blank">0-privileges.sql</a></p>
+
+<hr>
+
+<h3>1. Root user</h3>
+<p>Write a script that creates the MySQL server user <code>user_0d_1</code>.</p>
+<ul>
+    <li><code>user_0d_1</code> should have all privileges on your MySQL server</li>
+    <li>The <code>user_0d_1</code> password should be set to <code>user_0d_1_pwd</code></li>
+    <li>If the user <code>user_0d_1</code> already exists, your script should not fail</li>
+</ul>
+
+<h3><strong>Files</strong></h3>
+<p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/1-create_user.sql" target="_blank">1-create_user.sql</a></p>
+
+<hr>
