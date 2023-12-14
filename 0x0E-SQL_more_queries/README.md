@@ -113,3 +113,21 @@ $
 <p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/3-force_name.sql" target="_blank">3-force_name.sql</a></p>
 
 <hr>
+
+
+<h3>4. ID can't be null</h3>
+<p>Write a script that creates the table <code>id_not_null</code> on your MySQL server.</p>
+<ul>
+    <li><code>id_not_null</code> description:</li>
+    <ul>
+        <li><code>id</code> INT with the default value <code>1</code></li>
+        <li><code>name</code> VARCHAR(256)</li>
+    </ul>
+    <li>The database name will be passed as an argument of the <code>mysql</code> command</li>
+    <li>If the table <code>id_not_null</code> already exists, your script should not fail</li>
+</ul>
+
+<h3><strong>Files</strong></h3>
+<p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/4-never_empty.sql" target="_blank">4-never_empty.sql</a></p>
+
+<hr>
