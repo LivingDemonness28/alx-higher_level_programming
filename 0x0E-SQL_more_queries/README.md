@@ -96,3 +96,20 @@ $
 <p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/2-create_read_user.sql" target="_blank">2-create_read_user.sql</a></p>
 
 <hr>
+
+<h3>3. Always a name</h3>
+<p>Write a script that creates the table <code>force_name</code> on your MySQL server.</p>
+<ul>
+    <li><code>force_name</code> description:</li>
+    <ul>
+        <li><code>id</code> INT</li>
+        <li><code>name</code> VARCHAR(256) can't be null</li>
+    </ul>
+    <li>The database name will be passed as an argument of the <code>mysql</code> command</li>
+    <li>If the table <code>force_name</code> already exists, your script should not fail</li>
+</ul>
+
+<h3><strong>Files</strong></h3>
+<p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/3-force_name.sql" target="_blank">3-force_name.sql</a></p>
+
+<hr>
