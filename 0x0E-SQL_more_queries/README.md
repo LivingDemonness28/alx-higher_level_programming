@@ -114,7 +114,6 @@ $
 
 <hr>
 
-
 <h3>4. ID can't be null</h3>
 <p>Write a script that creates the table <code>id_not_null</code> on your MySQL server.</p>
 <ul>
@@ -129,5 +128,22 @@ $
 
 <h3><strong>Files</strong></h3>
 <p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/4-never_empty.sql" target="_blank">4-never_empty.sql</a></p>
+
+<hr>
+
+<h3>5. Unique ID</h3>
+<p>Write a script that creates the table <code>unique_id</code> on your MySQL server.</p>
+<ul>
+    <li><code>unique_id</code> description:</li>
+    <ul>
+        <li><code>id</code> INT with the default value <code>1</code> and must be unique</li>
+        <li><code>name</code> VARCHAR(256)</li>
+    </ul>
+    <li>The database name will be passed as an argument of the <code>mysql</code> command</li>
+    <li>If the table <code>unique_id</code> already exists, your script should not fail</li>
+</ul>
+
+<h3><strong>Files</strong></h3>
+<p><a href="https://github.com/LivingDemonness28/alx-higher_level_programming/blob/main/0x0E-SQL_more_queries/5-unique_id.sql" target="_blank">5-unique_id.sql</a></p>
 
 <hr>
