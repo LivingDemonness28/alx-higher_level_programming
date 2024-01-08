@@ -2,7 +2,7 @@
 const number = process.argv[2];
 let i = number;
 
-for (i; 0 < i; i--) {
+for (i; 1 < i; i--) {
   i *= i;
 }
 
