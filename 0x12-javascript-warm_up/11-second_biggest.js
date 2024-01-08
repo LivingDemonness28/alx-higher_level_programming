@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const arr1 = process.argv.slices(2);
+const arr1 = process.argv.slice(2);
 
 function second_biggest (arr1) {
   len1 = arr1.length
