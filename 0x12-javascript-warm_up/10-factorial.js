@@ -5,6 +5,8 @@ const n = parseInt(number);
 function fact (n) {
   if (n === undefined || isNaN(n)) {
     console.log(1);
+  } else if (n <= 1) {
+    console.log(1);
   } else {
     return (n * fact(n - 1));
   }
