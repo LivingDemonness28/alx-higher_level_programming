@@ -7,9 +7,6 @@ function fact (n) {
     console.log(1);
   } else if (isNaN(n)) {
     console.log(1);
-  } else if (n === 1) {
-    const no_num = NaN;
-    console.log(no_num);
   } else {
     return (n * fact(n - 1));
   }
