@@ -1,9 +1,16 @@
 #!/usr/bin/node
 const number = process.argv[2];
-let i = number;
+const n = parseInt(number);
 
-for (i; 1 < i; i--) {
-  i *= i;
+function fact (n) {
+  if (number === undefined) {
+    console.log(1);
+  } else if (isNaN(n)) {
+    console.log(1);
+  } else if (n === 1) {
+    const no_num = NaN;
+    console.log(no_num);
+  } else {
+    return (n * fact(n - 1));
+  }
 }
-
-console.log(i);
