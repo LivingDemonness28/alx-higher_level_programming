@@ -8,7 +8,7 @@ if (isNaN(number)) {
   let string1 = 'X';
 
   for (let i = 0; i < number; i++) {
-    string1 += string1;
+    string1 += 'X';
   }
 
   for (let j = 0; j < number; j++) {
