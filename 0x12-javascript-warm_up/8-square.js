@@ -15,5 +15,3 @@ if (isNaN(number)) {
     console.log(string1);
   }
 }
-
-
