@@ -1,8 +1,8 @@
 #!/usr/bin/node
 const arr1 = process.argv.slice(2);
 
-function second_biggest (arr1) {
-  len1 = arr1.length
+function secondBiggest (arr1) {
+  const len1 = arr1.length;
   if (arr1 === undefined || len1 <= 1) {
     console.log(0);
   } else {
@@ -24,4 +24,4 @@ function second_biggest (arr1) {
   }
 }
 
-second_biggest(arr1);
+secondBiggest(arr1);
