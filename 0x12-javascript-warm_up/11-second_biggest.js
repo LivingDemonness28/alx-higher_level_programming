@@ -4,9 +4,9 @@ const arr1 = process.argv.slice(2);
 function second_biggest (arr1) {
   len1 = arr1.length
   if (arr1 === undefined) {
-    console.log(0);
+    return (0);
   } else if (len1 === 1) {
-    console.log(0);
+    return (0);
   } else {
     while (true) {
       let swapped = false;
