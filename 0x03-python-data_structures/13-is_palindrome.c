@@ -1,4 +1,5 @@
 #include "lists.h"
+#include "13-reverse"
 
 /**
 * is_palindrome - Checks if list is palindrome.
